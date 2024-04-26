@@ -7,7 +7,7 @@
 > * Just newbie
 > * I like learning programming language.
 > * Live in Bekasi, Central Java, Indonesia
-> * I'm 18 y.o.
+> * I'm 16 y.o.
 > * B'day 3 Agustus
 > ,If you want know 
 > * Commit almost 'every' day (boong bgt)
