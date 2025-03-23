@@ -47,7 +47,7 @@
 <h2 align="center">Projects</h2>
 
 <p align="center">
-  <a href="https://github.com/FahriAdison/Ran-Bot" target="_blank">
+  <a href="https://github.com/branpedia/Shiya-MD" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Branpedia&repo=Shiya-MD&theme=highcontrast" alt="Shiya-MD">
   </a>
 </p>
