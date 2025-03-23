@@ -17,7 +17,7 @@
   <p>
     <b>Name:</b> Branpedia<br>
     <b>Status:</b> Playing, Learning, Helping<br>
-    <b>Location:</b> Air Molek, Kabupaten Indragiri Hulu, Indonesia<br>
+    <b>Location:</b> Bekasi, Jawa Barat, Indonesia<br>
     <b>Birthday:</b> June 6th<br><br>
     <b>Special Thanks To:</b><br>
     - Allah SWT<br>
