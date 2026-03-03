@@ -6,14 +6,74 @@
   </a>
 </p>
 
-<h2 align="center">About Me</h2>
+<style>
+  /* Dark Mode */
+  @media (prefers-color-scheme: dark) {
+    details[data-theme="blue"] {
+      background-color: #161B22 !important;
+      border: 2px solid #58A6FF !important;
+      border-radius: 10px !important;
+      padding: 15px !important;
+      margin: 20px auto !important;
+      max-width: 600px !important;
+    }
+    
+    details[data-theme="blue"] summary {
+      color: #58A6FF !important;
+      font-weight: bold !important;
+      font-size: 1.2em !important;
+      cursor: pointer !important;
+    }
+    
+    details[data-theme="blue"] p {
+      color: #FFFFFF !important;
+      line-height: 1.6 !important;
+    }
+    
+    details[data-theme="blue"] b {
+      color: #58A6FF !important;
+    }
+  }
+  
+  /* Light Mode */
+  @media (prefers-color-scheme: light) {
+    details[data-theme="blue"] {
+      background-color: #F6F8FA !important;
+      border: 2px solid #0969DA !important;
+      border-radius: 10px !important;
+      padding: 15px !important;
+      margin: 20px auto !important;
+      max-width: 600px !important;
+    }
+    
+    details[data-theme="blue"] summary {
+      color: #0969DA !important;
+      font-weight: bold !important;
+      font-size: 1.2em !important;
+      cursor: pointer !important;
+    }
+    
+    details[data-theme="blue"] p {
+      color: #1F2328 !important;
+      line-height: 1.6 !important;
+    }
+    
+    details[data-theme="blue"] b {
+      color: #0969DA !important;
+    }
+  }
+</style>
+
+<!-- About Me -->
+<h2 align="center">📋 About Me</h2>
 
 <p align="center">
-  Hi, I'm Bran Pedia, a newbie programmer currently exploring the world of Golang and Javascript.  I'm passionate about learning and contributing.  Nice to meet you!
+  Hi, I'm Bran Pedia, a newbie programmer currently exploring the world of Golang and Javascript. I'm passionate about learning and contributing. Nice to meet you!
 </p>
 
-<details>
-  <summary>More About Me</summary>
+<!-- More About Me  -->
+<details data-theme="blue">
+  <summary><b>🔍 More About Me</b></summary>
   <p>
     <b>Name:</b> Branpedia<br>
     <b>Status:</b> Playing, Learning, Helping<br>
@@ -27,42 +87,75 @@
   </p>
 </details>
 
+<!-- Follow Me -->
 <p align="center">
-  <b>Follow Me On</b>
+  <b>📱 Follow Me On</b>
 </p>
 
 <p align="center">
   <a href="https://www.instagram.com/bran_pedia" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://youtube.com/@branpedia" target="_blank"><img src="https://img.shields.io/badge/YouTube-%231877F2.svg?&style=flat-square&logo=YouTube&logoColor=white" alt="YouTube"></a>
-  <a href="https://wa.me/6285795600265" target="_blank"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="Whatsapp"></a>
+  <a href="https://youtube.com/@branpedia" target="_blank"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=flat-square&logo=youtube&logoColor=white" alt="YouTube"></a>
+  <a href="https://wa.me/6285795600265" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-%2325D366.svg?&style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
 </p>
 
-<h2 align="center">My Stats</h2>
+<!-- GitHub Statistics -->
+<h2 align="center">📊 GitHub Statistics</h2>
 
+<!-- Profile Summary Cards -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Branpedia&layout=compact&show_icons=true&theme=highcontrast&show_owner=true" alt="Branpedia Github Statistic">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Branpedia&layout=compact&theme=highcontrast" alt="Github Top Languages">
-</p>
-
-<h2 align="center">Projects</h2>
-
-<p align="center">
-  <a href="https://github.com/branpedia/Shiya-MD" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Branpedia&repo=Shiya-MD&theme=highcontrast" alt="Shiya-MD">
-  </a>
-</p>
-
-<h2 align="center">Trophies & Streaks</h2>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Branpedia&row=2&column=3&layout=compact&theme=onedark" alt="Trophies">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Branpedia" alt="Streak Stats">
+  <picture>
+    <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Branpedia&theme=github_dark" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Branpedia&theme=github_light" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Branpedia&theme=github_light" alt="Profile Summary" width="800" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Branpedia&label=VIEWS&style=flat-square&color=orange" alt="Profile Views">
+  <picture>
+    <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Branpedia&theme=github_dark" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Branpedia&theme=github_light" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Branpedia&theme=github_light" alt="Repos Per Language" />
+  </picture>
+  
+  <picture>
+    <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Branpedia&theme=github_dark" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Branpedia&theme=github_light" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Branpedia&theme=github_light" alt="Most Commit Language" />
+  </picture>
+</p>
+
+<!-- Featured Project -->
+<h2 align="center">🚀 Featured Project</h2>
+
+<!-- Card Repository -->
+<p align="center">
+  <picture>
+    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=branpedia&repo=Shiya-MD&theme=tokyonight&show_owner=true" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=branpedia&repo=Shiya-MD&theme=default&show_owner=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=branpedia&repo=Shiya-MD&theme=tokyonight&show_owner=true" alt="Shiya-MD" width="450" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif" alt="Mario Game" width="600">
+  <b>📦 Shiya-MD</b><br>
+  <i>WhatsApp Bot with amazing features</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS">
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" alt="Node">
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
+</p>
+
+<!-- Profile Views -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Branpedia&label=Profile%20Views&color=orange&style=flat-square" alt="Profile Views">
+  <br>
+  <i>Terima kasih sudah berkunjung! ✨</i>
+</p>
+
+<!-- Nakano Miku GIF -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/branpedia/branpedia/main/wife.gif" alt="Nakano Miku" width="600" style="border-radius: 10px;">
 </p>
