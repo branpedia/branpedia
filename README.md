@@ -6,64 +6,6 @@
   </a>
 </p>
 
-<style>
-  /* Dark Mode */
-  @media (prefers-color-scheme: dark) {
-    details[data-theme="blue"] {
-      background-color: #161B22 !important;
-      border: 2px solid #58A6FF !important;
-      border-radius: 10px !important;
-      padding: 15px !important;
-      margin: 20px auto !important;
-      max-width: 600px !important;
-    }
-    
-    details[data-theme="blue"] summary {
-      color: #58A6FF !important;
-      font-weight: bold !important;
-      font-size: 1.2em !important;
-      cursor: pointer !important;
-    }
-    
-    details[data-theme="blue"] p {
-      color: #FFFFFF !important;
-      line-height: 1.6 !important;
-    }
-    
-    details[data-theme="blue"] b {
-      color: #58A6FF !important;
-    }
-  }
-  
-  /* Light Mode */
-  @media (prefers-color-scheme: light) {
-    details[data-theme="blue"] {
-      background-color: #F6F8FA !important;
-      border: 2px solid #0969DA !important;
-      border-radius: 10px !important;
-      padding: 15px !important;
-      margin: 20px auto !important;
-      max-width: 600px !important;
-    }
-    
-    details[data-theme="blue"] summary {
-      color: #0969DA !important;
-      font-weight: bold !important;
-      font-size: 1.2em !important;
-      cursor: pointer !important;
-    }
-    
-    details[data-theme="blue"] p {
-      color: #1F2328 !important;
-      line-height: 1.6 !important;
-    }
-    
-    details[data-theme="blue"] b {
-      color: #0969DA !important;
-    }
-  }
-</style>
-
 <!-- About Me -->
 <h2 align="center">📋 About Me</h2>
 
@@ -72,19 +14,36 @@
 </p>
 
 <!-- More About Me  -->
-<details data-theme="blue">
+<details>
   <summary><b>🔍 More About Me</b></summary>
-  <p>
-    <b>Name:</b> Branpedia<br>
-    <b>Status:</b> Playing, Learning, Helping<br>
-    <b>Location:</b> Bekasi, Jawa Barat, Indonesia<br>
-    <b>Birthday:</b> June 6th<br><br>
+  
+  <table align="center">
+    <tr>
+      <td><b>Name:</b></td>
+      <td>Branpedia</td>
+    </tr>
+    <tr>
+      <td><b>Status:</b></td>
+      <td>Playing, Learning, Helping</td>
+    </tr>
+    <tr>
+      <td><b>Location:</b></td>
+      <td>Bekasi, Jawa Barat, Indonesia</td>
+    </tr>
+    <tr>
+      <td><b>Birthday:</b></td>
+      <td>June 6th</td>
+    </tr>
+  </table>
+  
+  <p align="center">
     <b>Special Thanks To:</b><br>
     - Allah SWT<br>
     - All Sepuh<br>
     - The Last Generation<br>
     - My Friends
   </p>
+  
 </details>
 
 <!-- Follow Me -->
