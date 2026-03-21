@@ -18,23 +18,23 @@
   <summary><b>🔍 More About Me</b></summary>
   
   <table align="center">
-    <tr>
-      <td><b>Name:</b></td>
-      <td>Branpedia</td>
+    选项
+      选项<b>Name:</b>选项
+      选项Branpedia选项
     </tr>
     <tr>
-      <td><b>Status:</b></td>
-      <td>Playing, Learning, Helping</td>
+      选项<b>Status:</b>选项
+      选项Playing, Learning, Helping选项
     </tr>
     <tr>
-      <td><b>Location:</b></td>
-      <td>Bekasi, Jawa Barat, Indonesia</td>
+      选项<b>Location:</b>选项
+      选项Bekasi, Jawa Barat, Indonesia选项
     </tr>
     <tr>
-      <td><b>Birthday:</b></td>
-      <td>June 6th</td>
+      选项<b>Birthday:</b>选项
+      选项June 6th选项
     </tr>
-  </table>
+   </table>
   
   <p align="center">
     <b>Special Thanks To:</b><br>
@@ -88,11 +88,13 @@
 
 <!-- Card Repository -->
 <p align="center">
-  <picture>
-    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=branpedia&repo=Shiya-MD&theme=tokyonight&show_owner=true" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=branpedia&repo=Shiya-MD&theme=default&show_owner=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=branpedia&repo=Shiya-MD&theme=tokyonight&show_owner=true" alt="Shiya-MD" width="450" />
-  </picture>
+  <a href="https://github.com/Branpedia/Shiya-MD" target="_blank">
+    <picture>
+      <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=branpedia&repo=Shiya-MD&theme=tokyonight&show_owner=true" media="(prefers-color-scheme: dark)" />
+      <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=branpedia&repo=Shiya-MD&theme=default&show_owner=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=branpedia&repo=Shiya-MD&theme=tokyonight&show_owner=true" alt="Shiya-MD" width="450" />
+    </picture>
+  </a>
 </p>
 
 <p align="center">
